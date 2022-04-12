@@ -1,0 +1,549 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+  display: flex !important;
+  background-color: #9ad0ec;
+  background-image: linear-gradient(to right, #1572a1, #9ad0ec);
+  justify-content: space-around;
+  height: 70px;
+  align-items: center;
+  color: white;
+  margin-bottom: 3em;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.dropbtn {
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #9ad0ec;
+  background-image: linear-gradient(to right, #1572a1, #9ad0ec);
+  min-width: 185px;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+  border-radius: 4px;
+  /* margin-top: 5px; */
+  margin-left: -17px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: #1572a1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.row-web {
+  width: 100%;
+}
+.mr2 {
+  margin-right: 1em;
+}
+.ml2 {
+  margin-left: 1em;
+}
+.h4 {
+  font-size: 30px;
+}
+
+.logo {
+  margin-right: 50%;
+}
+
+.a {
+  color: white;
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.nav-cv {
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 25%;
+  justify-content: space-between;
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.icons {
+  display: none;
+}
+
+a:hover {
+  color: #1572a1;
+}
+
+.menu-active {
+  color: #1572a1 !important;
+}
+
+.button {
+  background-color: #9ad0ec;
+  box-shadow: 0px;
+}
+
+.btn-home:hover {
+  background: #1572a1;
+  color: white;
+}
+
+.link-home {
+  color: white !important;
+  text-decoration: none;
+}
+
+.btn-close-enigma {
+  background-color: #9ad0ec;
+  color: white;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.btn-close-enigma:hover {
+  background: #1572a1;
+  color: white;
+}
+
+.warna-link {
+  color: white !important;
+  text-decoration: none;
+}
+
+.btn-slide {
+  border-radius: 50%;
+  margin: 0em 1em 0em 1em;
+  opacity: 50%;
+}
+
+.bg-black {
+  background-color: #0000003b !important;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.text-home {
+  margin-top: -3em;
+  margin-left: 2em;
+}
+
+.p-home {
+  font-size: 15px;
+  margin: 0em 2em 0em 2em;
+}
+
+.h6-home {
+  font-size: 25px;
+  color: #1572a1;
+}
+
+.program-home {
+  margin-left: 30px;
+}
+
+.tulisan {
+  width: 96%;
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+.mt-slide {
+  margin: 0em 1em 1em 1em;
+}
+
+.w-kanan {
+  color: #fff !important;
+}
+
+.btn-home {
+  background-color: #9ad0ec;
+  color: white;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.mg-home {
+  margin-top: 2em;
+}
+
+/* css blog */
+.p-blog {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+/* css about */
+.judul-about {
+  font-size: 25px;
+  color: #1572a1;
+}
+
+.about {
+  margin-right: 65px;
+}
+
+.about-2 {
+  margin-left: 80px;
+  margin-top: 1em;
+}
+
+.gambar-about {
+  width: 74%;
+  margin-left: 4.8em;
+}
+
+.gambar-about-2 {
+  width: 80%;
+  margin-left: 1.5em;
+}
+
+.about-nm {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* css visi misi */
+.mg-visimisi {
+  margin-top: 2em;
+}
+
+.visi {
+  display: inline-block;
+  text-align: center;
+}
+
+.misi {
+  display: inline-block;
+  text-align: center;
+}
+
+.gambar-visi {
+  width: 44%;
+}
+
+.gambar-misi {
+  width: 48%;
+}
+
+.judul-visimisi {
+  font-size: 25px;
+  color: #1572a1;
+}
+
+.border-visimisi {
+  height: 2px;
+  background-color: #9ad0ec;
+  width: 20px;
+  margin: auto;
+}
+
+.p-visi {
+  padding: 0em 6em 0em 6em;
+  color: #999999;
+}
+
+.p-misi {
+  margin-top: -18px;
+  padding: 0em 6em 0em 6em;
+  color: #999999;
+}
+
+/* css border */
+.border-home {
+  height: 2px;
+  background-color: #9ad0ec;
+  width: 20px;
+  margin-bottom: 20px !important;
+}
+
+.border-about {
+  height: 2px;
+  background-color: #9ad0ec;
+  width: 20px;
+  margin-bottom: 25px !important;
+  /* margin: auto; */
+}
+
+/* css gallery foto */
+div.gallery {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: 1px solid rgb(167, 166, 166);
+  float: left;
+  width: 180px;
+  padding: 1em;
+}
+
+div.gallery:hover {
+  border: 3px solid #9ad0ec;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* css footer */
+.footer-web {
+  background-color: #1572a1;
+}
+
+.text-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.gambar-footer {
+  width: 200px;
+}
+
+/* Hamburger Menu */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu-toggle input {
+  position: absolute;
+  width: 40px;
+  height: 28px;
+  left: -6px;
+  top: -3px;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background-color: white;
+  border-radius: 3px;
+  transition: all 0.5s;
+}
+
+/* Hamburger menu animation */
+.menu-toggle span:nth-child(2) {
+  transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4) {
+  transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+  background-color: white;
+  transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4) {
+  background-color: white;
+  transform: rotate(-45deg) translate(-1px, 0);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3) {
+  transform: scale(0);
+}
+
+/* responsive breakpoint */
+/* ukuran tablet */
+@media screen and (max-width: 768px) {
+  nav ul {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  nav ul {
+    width: 20%;
+  }
+
+  .logo {
+    margin-right: 570px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  nav ul {
+    width: 20%;
+  }
+
+  .logo {
+    margin-right: 335px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .menu-toggle {
+    display: flex;
+    z-index: 2;
+  }
+
+  nav ul {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9ad0ec;
+    z-index: 2;
+    transform: translateX(100%);
+    transition: all 1s;
+    opacity: 0;
+  }
+
+  nav ul.slide {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .logo {
+    margin-right: 70px;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  i {
+    margin-right: 10px;
+  }
+  .icons {
+    display: flex;
+  }
+
+  /* css layar 576px home */
+
+  .mt-slide {
+    margin: 0;
+    margin-top: -3em;
+  }
+
+  .mg-home {
+    margin-top: 4em;
+    width: 100%;
+  }
+
+  .col-6 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+
+  .p-home2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-right: 2em;
+  }
+
+  .text-footer {
+    font-size: 13px;
+  }
+
+  .footer-web {
+    margin: 0%;
+  }
+
+  /* css layar 576px about me */
+  .gambar-about {
+    margin-top: -1em;
+    margin-bottom: 1em;
+    width: 82%;
+    margin-left: 2em;
+  }
+
+  .col-7 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-left: 2em;
+  }
+
+  .col-9 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-left: -3em;
+  }
+
+  .gambar-about-2 {
+    width: 80%;
+    margin-left: 2.5em;
+  }
+
+  .h6-about {
+    margin-right: 2em;
+    margin-left: 2em;
+  }
+
+  .gallery-hp {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  .gallery {
+    margin-top: 0em !important;
+    margin-bottom: 1em !important;
+  }
+
+  .cv-close {
+    display: none;
+  }
+}
